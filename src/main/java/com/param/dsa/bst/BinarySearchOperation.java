@@ -6,9 +6,6 @@ public enum BinarySearchOperation {
     FIND_CLOSEST;
 
     public boolean isFindClosest(){
-        if(this.equals(BinarySearchOperation.FIND_CLOSEST)){
-            return Boolean.TRUE;
-        }
-        return Boolean.FALSE;
+        return this == FIND_CLOSEST;
     }
 }
