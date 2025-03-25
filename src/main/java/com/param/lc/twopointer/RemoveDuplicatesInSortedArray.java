@@ -1,4 +1,4 @@
-package com.param.lc.pattern.twopointer;
+package com.param.lc.twopointer;
 
 public class RemoveDuplicatesInSortedArray {
 

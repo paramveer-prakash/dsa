@@ -1,5 +1,6 @@
 package com.param.lc.array;
 
+import com.param.annotation.DSAProblem;
 import org.junit.jupiter.api.Test;
 
 public class MajorityElementTest {

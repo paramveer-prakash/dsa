@@ -1,4 +1,4 @@
-package com.param.lc.pattern.slidingwindow;
+package com.param.lc.slidingwindow;
 
 public class MaxAverageSubArray {
 

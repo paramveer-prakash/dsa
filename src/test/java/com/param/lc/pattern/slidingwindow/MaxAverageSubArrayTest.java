@@ -1,5 +1,6 @@
 package com.param.lc.pattern.slidingwindow;
 
+import com.param.lc.slidingwindow.MaxAverageSubArray;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

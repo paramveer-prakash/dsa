@@ -1,5 +1,6 @@
 package com.param.lc.pattern.prefixsum;
 
+import com.param.lc.prefixsum.MinSizeSubArraySum;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 public class MinSizeSubArraySumTest {

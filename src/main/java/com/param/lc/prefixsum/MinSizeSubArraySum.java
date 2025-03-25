@@ -1,4 +1,4 @@
-package com.param.lc.pattern.prefixsum;
+package com.param.lc.prefixsum;
 
 import java.util.*;
 

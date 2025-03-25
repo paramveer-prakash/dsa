@@ -1,8 +1,16 @@
 package com.param.lc.array;
 
+import com.param.annotation.DSAProblem;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@DSAProblem(
+        name = "Majority Element",
+        number=169,
+        description = "Given an array nums of size n, return the majority element.",
+        platform = "LeetCode"
+)
 public class MajorityElement {
 
     public int solve(int[] nums) {

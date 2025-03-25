@@ -1,5 +1,6 @@
 package com.param.lc.pattern.twopointer;
 
+import com.param.lc.twopointer.RemoveDuplicatesInSortedArray;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
