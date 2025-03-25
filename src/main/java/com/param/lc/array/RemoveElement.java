@@ -1,5 +1,11 @@
 package com.param.lc.array;
 
+@DSAProblem(
+        name = "Remove Element",
+        number=27,
+        description = "Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val",
+        platform = "LeetCode"
+)
 public class RemoveElement {
 
     public int solve(int[] nums, int val) {
