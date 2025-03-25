@@ -3,6 +3,12 @@ package com.param.lc.array;
 import java.util.ArrayList;
 import java.util.List;
 
+@DSAProblem(
+        name = "Find All Numbers Disappeared in an Array",
+        number=448,
+        description = "Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.",
+        platform = "LeetCode"
+)
 public class DisappearedNumbers {
 
     public List<Integer> solve(int[] nums) {
