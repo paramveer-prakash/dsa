@@ -5,6 +5,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
+@DSAProblem(
+        name = "How Many Numbers Are Smaller Than the Current Number",
+        number=1365,
+        description = "Given an array nums of size n, return the majority element.",
+        platform = "LeetCode"
+)
 public class NumbersSmallerThanCurrentNumber {
     public int[] solve(int[] nums) {
         int[] temp = Arrays.copyOf(nums,nums.length);
