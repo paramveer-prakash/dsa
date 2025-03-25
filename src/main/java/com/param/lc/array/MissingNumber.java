@@ -1,5 +1,10 @@
 package com.param.lc.array;
-
+@DSAProblem(
+        name = "Missing Number",
+        number=268,
+        description = "Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.",
+        platform = "LeetCode"
+)
 public class MissingNumber {
 
     public int solve(int[] nums) {
