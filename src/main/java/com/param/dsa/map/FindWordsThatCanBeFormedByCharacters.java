@@ -1,5 +1,13 @@
 package com.param.dsa.map;
 
+import com.param.annotation.DSAProblem;
+
+@DSAProblem(
+        name = "Find Words That Can Be Formed by Characters",
+        number=1160,
+        description = "You are given an array of strings words and a string chars. A string is good if it can be formed by characters from chars (each character can only be used once).",
+        platform = "LeetCode"
+)
 public class FindWordsThatCanBeFormedByCharacters {
 
     public int solve(String[] words, String chars){
