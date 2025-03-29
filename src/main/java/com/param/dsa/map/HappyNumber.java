@@ -2,7 +2,14 @@ package com.param.dsa.map;
 
 import java.util.HashSet;
 import java.util.Set;
+import com.param.annotation.DSAProblem;
 
+@DSAProblem(
+        name = "Happy Number",
+        number=202,
+        description = "Write an algorithm to determine if a number n is happy.",
+        platform = "LeetCode"
+)
 public class HappyNumber {
 
     public boolean solve(int n){
