@@ -2,7 +2,14 @@ package com.param.dsa.bst;
 
 import java.util.Comparator;
 import java.util.List;
+import com.param.annotation.DSAProblem;
 
+@DSAProblem(
+        name = "Binary Search",
+        number=0,
+        description = "Binary Search",
+        platform = "LeetCode"
+)
 public class BinarySearch {
 
     public static <T> T binarySearch(List<T> inputs, T target, Comparator<T> comparator, BinarySearchOperation bstOperation){
