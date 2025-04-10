@@ -1,5 +1,13 @@
 package com.param.dsa.dp;
 
+import com.param.annotation.DSAProblem;
+
+@DSAProblem(
+        name = "Longest Common Subsequence",
+        number=0,
+        description = "Dynamic Programming - Longest Common Subsequence",
+        platform = "LeetCode"
+)
 public class LongestCommonSubsequence {
 
     public int solveTopDown(String s1, String s2){
