@@ -1,5 +1,12 @@
 package com.param.dsa.dp;
+import com.param.annotation.DSAProblem;
 
+@DSAProblem(
+        name = "Longest Palindromic String",
+        number=0,
+        description = "Dynamic Programming: Longest Palindromic String",
+        platform = ""
+)
 public class LongestPalindromicString {
 
     public String solve(String s) {
