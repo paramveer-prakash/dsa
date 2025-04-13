@@ -1,7 +1,14 @@
 package com.param.dsa.sorts;
 
 import java.util.Arrays;
+import com.param.annotation.DSAProblem;
 
+@DSAProblem(
+        name = "Merge Sort",
+        number=0,
+        description = "Merge Sort",
+        platform = ""
+)
 public class MergeSort {
     public void sort(int[] nums){
         if(nums.length>1){
