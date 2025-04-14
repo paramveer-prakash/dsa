@@ -1,7 +1,14 @@
 package com.param.dsa.stack;
 
 import java.util.*;
+import com.param.annotation.DSAProblem;
 
+@DSAProblem(
+        name = "Nearest Greater to Right",
+        number=383,
+        description = "Nearest Greater Element to Right",
+        platform = ""
+)
 public class NearestGreaterToRight {
 
     public int[] solve(int[] nums){
