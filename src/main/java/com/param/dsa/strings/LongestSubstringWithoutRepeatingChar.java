@@ -1,5 +1,13 @@
 package com.param.dsa.strings;
 
+import com.param.annotation.DSAProblem;
+
+@DSAProblem(
+        name = "Longest Substring Without Repeating Char",
+        number=0,
+        description = "Longest Substring Without Repeating Char",
+        platform = ""
+)
 public class LongestSubstringWithoutRepeatingChar {
     public int solve(String s){
         if(s.length()==0){
