@@ -1,5 +1,13 @@
 package com.param.dsa.tree;
 
+import com.param.annotation.DSAProblem;
+
+@DSAProblem(
+        name = "AVL Tree",
+        number=0,
+        description = "AVL Tree",
+        platform = ""
+)
 public class AVLTree {
     static class Node{
         int key,height;
